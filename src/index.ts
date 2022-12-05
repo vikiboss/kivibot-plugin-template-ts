@@ -1,4 +1,4 @@
-import { KiviPlugin, segment } from '@kivibot/core'
+import { KiviPlugin, segment, http } from '@kivibot/core'
 
 const plugin = new KiviPlugin('demo', '0.1.0')
 
