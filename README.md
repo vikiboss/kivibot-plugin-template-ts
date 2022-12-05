@@ -1,6 +1,6 @@
 # kivibot-plugin-template-ts
 
-`KiviBot` 插件 TS 开发模板，开箱即用，接近零配置。
+`KiviBot` 插件 TS 开发模板，开箱即用，近乎零配置。
 
 特征：
 
