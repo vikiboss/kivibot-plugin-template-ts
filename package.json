@@ -1,0 +1,33 @@
+{
+  "name": "kivibot-plugin-template-ts",
+  "version": "0.1.0",
+  "description": "QQ 机器人框架 KiviBot 的 TS 开发模板",
+  "main": "lib/index.js",
+  "repository": "KiviBotLab/kivibot-plugin-template-ts",
+  "homepage": "https://github.com/KiviBotLab/kivibot-plugin-template-ts#readme",
+  "author": "Viki <hi@viki.moe> (https://github.com/vikiboss)",
+  "scripts": {
+    "dev": "tsc && (concurrently \"tsc -w\" \"tsc-alias -w\")",
+    "build": "tsc && tsc-alias",
+    "test": "ava",
+    "clean": "rimraf lib",
+    "release": "npm run clean && npm run build && npm publish"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "kivibot",
+    "kivibot-plugin"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@kivibot/core": "^0.4.3",
+    "ava": "^5.1.0",
+    "axios": "^1.2.0",
+    "concurrently": "^7.6.0",
+    "rimraf": "^3.0.2",
+    "tsc-alias": "^1.8.1",
+    "typescript": "^4.9.3"
+  }
+}
