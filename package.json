@@ -1,6 +1,6 @@
 {
   "name": "kivibot-plugin-template-ts",
-  "version": "0.1.2",
+  "version": "0.0.0",
   "private": true,
   "description": "QQ 机器人框架 KiviBot 的 TS 开发模板",
   "main": "lib/index.js",

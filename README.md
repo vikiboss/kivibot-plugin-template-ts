@@ -15,5 +15,9 @@
 使用 `degit` 克隆到本地进行开发
 
 ```shell
-npx degit KiviBotLab/kivibot-plugin-template-ts demo-ts
+# GitHub 源
+npx degit KiviBotLab/kivibot-plugin-template-ts kivibot-plugin-ts-demo
+
+# 国内镜像
+npx degit https://gh-proxy.deno.dev/KiviBotLab/kivibot-plugin-template-ts kivibot-plugin-ts-demo
 ```
