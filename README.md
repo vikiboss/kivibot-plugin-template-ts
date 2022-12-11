@@ -23,7 +23,7 @@ npx degit KiviBotLab/kivibot-plugin-template-ts kivibot-plugin-ts-demo
 # xxx for KiviBot
 
 ![npm (scoped)](https://img.shields.io/npm/v/kivibot?color=527dec&label=kivibot&style=flat-square)
-[![dm](https://shields.io/npm/dm/kivibot?label=kivibot&style=flat-square)](https://www.npmjs.com/package/kivibot)
+[![dm](https://shields.io/npm/dm/kivibot?style=flat-square)](https://www.npmjs.com/package/kivibot)
 
 `KiviBot` 的 [xxx](https://beta.kivibot.com/) 插件。
 
