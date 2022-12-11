@@ -1,6 +1,6 @@
 import { KiviPlugin, segment, http } from '@kivibot/core'
 
-const plugin = new KiviPlugin('demo', '0.1.0')
+const plugin = new KiviPlugin('demo', '0.0.0')
 
 plugin.onMounted(() => {
   plugin.onMessage(event => {
