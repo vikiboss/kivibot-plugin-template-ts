@@ -17,3 +17,30 @@
 ```shell
 npx degit KiviBotLab/kivibot-plugin-template-ts kivibot-plugin-ts-demo
 ```
+
+然后删除 `README` 的上述内容，修改并保留以下内容即可。
+
+# xxx for KiviBot
+
+![npm (scoped)](https://img.shields.io/npm/v/kivibot?color=527dec&label=kivibot&style=flat-square)
+[![dm](https://shields.io/npm/dm/kivibot?label=kivibot&style=flat-square)](https://www.npmjs.com/package/kivibot)
+
+`KiviBot` 的 [xxx](https://beta.kivibot.com/) 插件。
+
+**安装**
+
+```shell
+/plugin add xxx
+```
+
+**启用**
+
+```shell
+/plugin on xxx
+```
+
+**使用**
+
+```shell
+
+```
