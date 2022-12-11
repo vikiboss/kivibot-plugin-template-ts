@@ -15,7 +15,7 @@
 使用 `degit` 克隆到本地进行开发
 
 ```shell
-npx degit KiviBotLab/kivibot-plugin-template-ts kivibot-plugin-ts-demo
+npx degit KiviBotLab/kivibot-plugin-template-ts ts-demo
 ```
 
 然后删除 `README` 的上述内容，修改并保留以下内容即可。
