@@ -1,8 +1,14 @@
 import { KiviPlugin, segment, http } from '@kivibot/core'
 
-const plugin = new KiviPlugin('demo', '0.0.0')
+const { version } = require('../package.json')
+const plugin = new KiviPlugin('demo', version)
+
+const config = {}
 
 plugin.onMounted(() => {
+  Object.assign(config, plugin.loadConfig())
+  plugin.saveConfig(config)
+
   plugin.onMessage(event => {
     const { raw_message } = event
 

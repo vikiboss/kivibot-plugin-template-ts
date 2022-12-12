@@ -2,7 +2,7 @@
   "name": "kivibot-plugin-template-ts",
   "version": "0.0.0",
   "private": true,
-  "description": "QQ 机器人框架 KiviBot 的 TS 开发模板",
+  "description": "QQ 机器人框架 KiviBot 的 xxx 插件",
   "main": "lib/index.js",
   "repository": "KiviBotLab/kivibot-plugin-template-ts",
   "homepage": "https://github.com/KiviBotLab/kivibot-plugin-template-ts#readme",
@@ -24,6 +24,7 @@
   "license": "MIT",
   "devDependencies": {
     "@kivibot/core": "latest",
+    "@types/node": "^18.11.13",
     "ava": "^5.1.0",
     "concurrently": "^7.6.0",
     "rimraf": "^3.0.2",
