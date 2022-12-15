@@ -22,10 +22,10 @@ npx degit KiviBotLab/kivibot-plugin-template-ts ts-demo
 
 # xxx for KiviBot
 
-![npm (scoped)](https://img.shields.io/npm/v/kivibot-plugin-chatgpt?color=527dec&label=kivibot-plugin-chatgpt&style=flat-square)
-[![dm](https://shields.io/npm/dm/kivibot-plugin-chatgpt?style=flat-square)](https://www.npmjs.com/package/kivibot-plugin-chatgpt)
+[![npm-version](https://img.shields.io/npm/v/kivibot-plugin-xxx?color=527dec&label=kivibot-plugin-xxx&style=flat-square)](https://npm.im/kivibot-plugin-xxx)
+[![dm](https://shields.io/npm/dm/kivibot-plugin-xxx?style=flat-square)](https://npm.im/kivibot-plugin-xxx)
 
-`KiviBot` 的 [xxx](https://beta.kivibot.com/) 插件。
+[`KiviBot`](https://beta.kivibot.com) 的 [xxx]() 插件。
 
 **安装**
 
