@@ -18,7 +18,9 @@
 npx degit KiviBotLab/kivibot-plugin-template-ts ts-demo
 ```
 
-然后删除 `README` 的上述内容，修改并保留以下内容即可。
+> 如果你需要发布到 npm，请注意修改 `package.json`, `license` 的相关信息, `test.mjs` 用于编写测试，如果你不需要测试，可以自行删除。
+
+然后删除 `README` 的上述内容，保留并修改以下内容即可。
 
 # xxx for KiviBot
 
@@ -42,5 +44,22 @@ npx degit KiviBotLab/kivibot-plugin-template-ts ts-demo
 **使用**
 
 ```shell
+xxx
+```
 
+**配置**
+
+编辑 `框架目录/data/plugins/xxx/config.json` 文件。
+
+```jsonc
+{
+  // 触发命令
+  "cmd": ""
+}
+```
+
+然后使用以下命令重载插件生效。
+
+```shell
+/plugin reload xxx
 ```
